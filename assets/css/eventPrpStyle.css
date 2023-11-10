@@ -1,0 +1,826 @@
+@font-face{
+    font-family: bruumBoldFont;
+    src: url(./../fonts/Bruum\ FY\ Bold.otf);
+}
+@font-face{
+    font-family: bruumFont;
+    src: url(./../fonts/Bruum\ FY\ Black.otf);
+}
+@font-face{
+    font-family: bruumLightFont;
+    src: url(./../fonts/Bruum\ FY\ Light.otf);
+}
+
+*{
+    font-family: bruumLightFont;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* start home sreen */
+
+/* start header */
+header{
+    position: relative;
+    margin-bottom: 35px;
+    /* padding-bottom: 35px; */
+    /* border-bottom: 5px solid #027cc2; */
+}
+header .left-part img{
+    width: 100%;
+    min-height: 100px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+header .right-part{
+    width: 74%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+header .right-part .top-nav{
+    background-color: #027cc2;
+    padding: 0 20px;
+    color: #fff;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+}
+header .right-part .top-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+header .right-part .top-nav ul li{
+    margin-right: 21px;
+    position: relative;
+    cursor: pointer;
+}
+header .right-part .top-nav ul li:hover{
+    border-bottom: 1px solid #fff;
+}
+header .right-part .top-nav ul li:not(:last-child)::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    margin-left: 9px;
+    height: 18px;
+    bottom: 2px;
+    background-color: #fff;
+}
+header .nav1{
+    padding: 0 20px;
+    position: absolute;
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+/* header .nav1 ul li:first-of-type{
+    border-top: 4px solid #027cc2;
+} */
+header .nav1 ul li{
+    font-size: 14px;
+    margin-right: 20px !important;
+    cursor: pointer;
+    font-family: bruumBoldFont;
+    position: relative;
+}
+header .nav1 ul li:not(:last-child)::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    margin-left: 9px;
+    height: 18px;
+    bottom: 2px;
+    background-color: #000;
+}
+
+.border-right {
+    border-right: 1px solid #fcfcfc !important;
+}
+header .langs{
+    margin-top: -10px;
+}
+header .langs span{
+    font-size: 12px;
+    color: #fcfcfc;
+    cursor: pointer;
+}
+header .nav2{
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 75%;
+}
+header .nav2 ul{
+    margin-left: 50px;
+}
+header .nav2 ul li{
+    font-size: 14px;
+    cursor: pointer;
+}
+/* end header */
+
+.counter-top{
+    background-color: #1a1a1a;
+    padding: 20px 30px;
+}
+.counter-top .btns {
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    width: 90%;
+}
+.counter-top .btns button{
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #f1efef;
+}
+.counter-top .btns .btn-primary{
+    background-color: #027cc2;
+}
+.counter-top p{
+    font-size: 16px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #c3c3c3;
+}   
+.counter-top button.btn{
+    font-size: 14px;
+}   
+/* start counter */
+.counter{
+    margin: 30px 0;
+}
+.counter h2{
+    font-family: bruumBoldFont;
+    color: #027cc2;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+}
+.counter i{
+    font-size: 22px;
+    color: #888686;
+}
+.counter p{
+    color: #888686;
+}
+/* end counter */
+.datamatix-section{
+    margin: 30px 0;
+}
+.datamatix-section h3{
+    font-family: bruumBoldFont;
+    font-size: 28px;
+    margin-bottom: 30px;
+    /* border-left: 4px solid #027cc2;
+    padding-left: 20px; */
+}
+.datamatix-section .lists ul li{
+    text-transform: capitalize;
+}
+.datamatix-section p{
+    font-size: 21px;
+    line-height: 32px;
+}
+.datamatix-section a{
+    color: #027cc2 !important;
+    font-size: 17px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.banner_title{
+    margin: 40px 0 20px;
+    font-family: bruumBoldFont;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: left;
+    width: 95%;
+}
+.banner_text{
+    width: 95%;
+    font-size: 20px;
+}
+
+/* start banners */
+.bannerTop{
+    background-image: url(./../img/imageeBanner.png);
+}
+.main-banner img{
+    width: 100%;
+}
+.banner{
+    /* border-bottom: 10px solid #027cc2; */
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner-1{
+    background-image: url(./../img/10th_banner_6.jpg);
+    border-bottom: 10px solid #027cc2;
+    margin-bottom: 30px;
+}
+.banner-2{
+    background-image: url(./../img/10th_banner_2.jpg);
+    /* margin-bottom: -5px; */
+}
+.banner-3{
+    background-image: url(./../img/10th_banner_3.jpg);
+    /* border-top: 10px solid #027cc2; */
+}
+.banner-4{
+    background-image: url(./../img/10th_banner_4.jpg);
+    /* margin-bottom: -5px; */
+}
+.banner-5{
+    background-image: url(./../img/10th_banner_5.jpg);
+    /* margin-bottom: -5px; */
+}
+/* .banner-6{
+    background-image: url(./../img/ce.jpg);
+    border-bottom: 10px solid #ed2027;
+} */
+
+.banner .banner-text h3{
+    position: relative;
+    /* color: #027cc2; */
+    font-family: bruumBoldFont;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: 55%;
+}
+.banner .banner-text hr{
+    border-top: 2px solid #027cc2;
+    width: 70%;
+    margin-left: 0;
+    border-width: 1px;
+    display: inline-flex;
+}
+.banner-2 .banner-text hr{
+    margin-right: 0;
+}
+.banner .banner-text p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.banner .banner-text .btn-primary{
+    background-color: #027cc2;
+    border: #027cc2;
+    border-radius: 5px;
+    padding: 4px 14px;
+}
+/* end banners */
+
+/* start gallery */
+.categories img{
+    margin-bottom: 25px;
+}
+.gallery button.btn{
+    display: block;
+    margin: 2% 42%;
+    padding: 5px 30px;
+    border-radius: 0;
+}
+.gallery img.img-fluid{
+    margin-bottom: 20px;
+}
+/* end gallery */
+
+/* start events */
+.events h3{
+    font-weight: bold;
+    margin: 40px 0;
+    text-align: center;
+    font-size: 32px;
+}
+.events .event-card{
+    position: relative;
+    padding: 20px;
+    min-height: 620px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.events .event-card h5{
+    font-family: bruumBoldFont;
+    margin: 20px auto;
+    font-size: 24px;
+}
+.events .card-body p, .card-footer p{
+    color: #8b8b8b;
+}
+.events a{
+    text-decoration: none;
+    color: #fff;
+    font-family: bruumLightFont;
+}
+.events button{
+    background-color: #1b75ba;
+    border-color: #1b75ba;
+    width: 90%;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+.events .card-footer h6{
+    font-family: bruumBoldFont;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+.events .event-card:hover, .event-card.active{
+    background-color: #f8f8f8;
+    transition: .3s all;
+    cursor: pointer;
+}
+/* end events */
+
+.footer-top h4{
+    width: 90%;
+    margin: auto;
+}
+/* start footer */
+footer{
+    padding: 50px 0 0;
+    background-color: rgba(240,240,241,255);
+    margin-top: 30px;
+}
+footer .logo {
+    text-align: center;
+}
+/* footer .logo span{
+    font-family: boldFont;
+} */
+footer h5{
+    color: #027cc2;
+    font-size: 17px;
+    font-family: bruumBoldFont;
+}
+footer .links span{
+    color: #3d3b3b;
+    font-size: 14px;
+    cursor: pointer;
+}
+footer .links span:hover{
+    color: #0c4f75;
+    font-weight: 700;
+}
+footer .subscribe-label{
+    color: #027cc2;
+    font-size: 17px;
+}
+footer p.footr{
+    font-size: 15px;
+    margin-top: 10px;
+}
+footer .copy-right{
+    margin-top: 50px;
+    background-color: #027cc2;
+    color: #fff;
+}
+footer .copy-right p{
+    font-size: 15px;
+    margin: auto;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff
+}
+footer form input, footer form .btn{
+    max-height: 35px;
+    background-color: #027cc2;
+}
+footer form .btn{
+    font-size: 15px;
+}
+/* end footer */
+
+/* start home sreen */
+
+/* start media query */
+@media only screen and (min-width: 1400px) {
+    .banner {
+        height: 600px;
+    }
+    .datamatix-section p, .datamatix-section a {
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+@media only screen and (max-width: 1344px) {
+    header .nav1 ul li {
+        font-size: 13px;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 1281px) {
+    .counter-top p{
+        font-size: 14px;
+    }
+    .counter-top .btns {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+@media only screen and (max-width: 1168px) {
+    header .right-part .top-nav ul li {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1059px) {
+    /* header .nav1{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 25px;
+    } */
+    header .nav1 ul li {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    /* header .nav1{
+        padding-bottom: 10px;
+    } */
+}
+@media only screen and (max-width: 1109px) {
+    .counter-top .btns {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1086px) {
+    header .nav1{
+        position: relative;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .counter h2 {
+        font-size: 24px;
+    }
+    .datamatix-section p {
+        font-size: 16px;
+    }
+    .banner .banner-text h3 {
+        font-size: 20px;
+        margin-top: 100%;
+    }
+    .banner .banner-text p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .banner .banner-text h3 br{
+        display: none;
+    }
+    .banner .banner-text h3 {
+        line-height: 27px;
+    }
+    .events h3 {
+        margin: 25px 0;
+        font-size: 25px;
+    }
+    .events .event-card {
+        min-height: 575px;
+    }
+    .events .event-card h5 {
+        font-size: 17px;
+        margin: 15px auto;
+    }
+    .events .card-body p, .card-footer p {
+        color: #8b8b8b;
+        font-size: 14px;
+    }
+    .events .card-footer h6 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    .events a {
+        font-size: 14px;
+    }
+    .events button {
+        padding: 4px 0;
+    }
+}
+@media only screen and (max-width: 940px) {
+
+}
+
+@media only screen and (max-width: 798px) {
+    header .nav2 {
+        padding: 3px 0;
+    }
+}
+@media only screen and (max-width: 842px) and (min-width: 768px)  {
+    .counter-top button.btn{
+        font-size: 11px;
+    }
+    .counter h2 {
+        font-size: 26px;
+    }
+    .counter-top p{
+        font-size: 14px;
+    }
+    .datamatix-section p {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    header .right-part{
+        position: relative;
+        width: 100%;
+    }
+    header .right-part .top-nav ul li{
+        font-size: 14px;
+    }
+    header .langs span{
+        font-size: 12px;
+    }
+    header .right-part .top-nav {
+        padding: 20px;
+    }
+    header .right-part .top-nav ul li:not(:last-child)::after{
+        position: relative;
+    }
+    header .right-part .top-nav ul li{
+        width: 50%;
+        margin: 5px auto;
+    }
+    header .nav1 ul li:not(:last-child)::after{
+        position: relative;
+        width: 20%;
+    }
+    header .left-part img {
+        width: auto;
+        min-height: auto;
+    }
+    header .nav1{
+        position: relative;
+        width: 100%;
+        padding: 25px;
+        margin: 0;
+    }
+    header .nav2 {
+        width: 100%;
+    }
+    header .left-part img{
+        margin: auto;
+        display: flex;
+    }
+    header .nav2 ul {
+        margin-left: 0;
+    }
+    .datamatix-section br{
+        display: none;
+    }
+    .counter-top button.btn{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .datamatix-section {
+        margin: 9% auto;
+    }
+    .datamatix-section h3{
+        font-size: 20px;
+    }
+    .datamatix-section p {
+        font-size: 14px;
+    }
+    .gallery button.btn {
+        width: 50%;
+        margin: 20px auto;
+    }
+    .banner_title{
+        font-size: 22px;
+        text-align: center;
+        line-height: 30px;
+    }
+    .banner{
+        width: 100%;
+        height: 400px;
+    }
+    .banner .banner-text h3 {
+        font-size: 24px;
+    }
+    .banner .over{
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000;
+        opacity: .8;
+        z-index: 99;
+    }
+    .banner .banner-text h3{
+        margin-top: 30%;
+        color: #027cc2;
+    }
+    .banner .banner-text hr {
+       margin: auto;
+        width: 50%;
+    }
+    .banner .banner-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .banner .banner-text h3 br, .banner-text p br {
+        display: none;
+    }
+    .banner .banner-text p{
+        color: #fff;
+        margin-top: 12px;
+    }
+    .categories .cat{
+        display: flex;
+        justify-content: center;
+    }
+    .category img{
+        margin: 10px auto;
+        display: block;
+    }
+    .events h5 br{
+        display: none;
+    }
+    .events .event-card {
+        min-height: 500px;
+    }
+    .footer-top h4{
+        width: 100%;
+        font-size: 21px;
+    }
+    footer .logo{
+        margin-bottom: 20px;
+    }
+    footer .icon-download{
+        width: 50%;
+        margin: 5px auto;
+    }
+    footer .social{
+        width: 50%;
+        margin: auto;
+    }
+    
+}
+@media only screen and (max-width: 575px) {
+    /* header .nav1{
+        padding-bottom: 15%;
+    } */
+    header .left-part img {
+        width: 50%;
+        min-height: 60px;
+    }
+    header .nav2 {
+        padding: 10px 0;
+    }
+    header .nav2 ul li {
+        font-size: 12px;
+    }
+    .counter-top .btns {
+        margin-top: 15px;
+    }
+    .counter-top .btns .btn {
+        width: 100%;
+        margin-top: 5px;
+    }
+    .banner .banner-text h3 {
+        margin-top: 35%;
+    }
+    .banner .banner-text hr{
+        width: 100%;
+        margin: auto !important;
+    }
+    .banner .banner-text {
+        text-align: center;
+    }
+    .gallery img{
+        margin: -10px auto;
+        display: block;
+        width: 90%;
+    }
+    .categories img{
+        margin-bottom: 10px;
+    }
+    .datamatix-section ul li{
+        font-size: 14px;
+        line-height: 21px;
+    }   
+    .events .event-card {
+        min-height: 535px;
+    }
+    .footer-top h4{
+        width: 85%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    footer h5 {
+        font-size: 15px;
+    }
+    footer .links span {
+        font-size: 13px;
+    }
+    footer .copy-right {
+        margin-top: 30px;
+    }
+    footer .copy-right p {
+        font-size: 13px;
+    }
+}
+/* @media only screen and (max-width: 475px) {
+    header .nav1{
+        padding-bottom: 20%;
+    }
+} */
+@media only screen and (max-width: 558px) {
+    header .nav1 ul li {
+        margin-left: 5px;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 505px) {
+    header .nav1 .langs {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    .banner .banner-text hr{
+        width: 75%;
+    }
+    .banner .banner-text h3 {
+        margin-top: 40%;
+    }
+}
+@media only screen and (max-width: 460px){
+    header .nav1 ul li{
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 418px){
+    .nav1 .langs{
+        display: flex;
+    }
+}
+@media only screen and (max-width: 414px) {
+    header .nav1 ul li {
+        margin-left: 0px;
+        font-size: 12px;
+    }
+    .banner .banner-text h3 {
+        margin-top: 40%;
+    }
+    .datamatix-section p {
+        line-height: 22px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    /* header .nav1{
+        padding-bottom: 25%;
+    } */
+    .banner .banner-text hr{
+        margin: auto;
+    }
+    .banner .banner-text h3 {
+        margin-top: 35%;
+    }
+    .banner .banner-text p{
+        margin-top: 10px;
+    }
+    form button.d-flex{
+        padding: 5px 10px;
+    }
+    .datamatix-section h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .datamatix-section p , .datamatix-section a {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .datamatix-section{
+        margin-bottom: 25px;
+    }
+}
+@media only screen and (max-width: 237px) {
+    .banner_title {
+        font-size: 13px;
+        text-align: left;
+        line-height: 19px;
+        margin-top: 100px !important;
+    }
+}
+
+/* end media query */

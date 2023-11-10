@@ -544,6 +544,8 @@ footer form .btn{
     }
     header .right-part .top-nav ul li{
         font-size: 14px;
+        width: 70%;
+        margin: 5px auto;
     }
     header .langs span{
         font-size: 12px;
@@ -553,10 +555,6 @@ footer form .btn{
     }
     header .right-part .top-nav ul li:not(:last-child)::after{
         position: relative;
-    }
-    header .right-part .top-nav ul li{
-        width: 50%;
-        margin: 5px auto;
     }
     header .nav1 ul li:not(:last-child)::after{
         position: relative;

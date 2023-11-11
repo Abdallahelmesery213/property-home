@@ -367,6 +367,12 @@ footer{
 footer .logo {
     text-align: center;
 }
+footer .logo img{
+    margin-top: -30%;
+}
+footer .logo img.logo2{
+    margin-top: -20%;
+}
 /* footer .logo span{
     font-family: boldFont;
 } */

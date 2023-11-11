@@ -542,9 +542,9 @@ footer form .btn{
         position: relative;
         width: 100%;
     }
-    header .right-part .top-nav ul li{
+    header .right-part .top-nav ul li, header .nav1 ul li{
         font-size: 14px;
-        width: 70%;
+        width: 40%;
         margin: 5px auto;
     }
     header .langs span{
@@ -773,7 +773,7 @@ footer form .btn{
     }
 }
 @media only screen and (max-width: 414px) {
-    header .nav1 ul li {
+    header .nav1 ul li , header .right-part .top-nav ul li{
         margin-left: 0px;
         font-size: 14px;
         display: block;

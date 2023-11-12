@@ -220,6 +220,11 @@ header .nav2 ul li{
 /* start banners */
 .bannerTop{
     background-image: url(./../img/imageeBanner.png);
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
 .main-banner img{
     width: 100%;
@@ -227,10 +232,22 @@ header .nav2 ul li{
 .banner{
     /* border-bottom: 10px solid #027cc2; */
     width: 100%;
-    height: 580px;
+    height: 780px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+}
+.banner.bannerRight{
+    background-position: right;
+}
+.banner.bannerLeft{
+    background-position: left;
+}
+.banner.bannerLeft .banner-text{
+    margin-left: 5%;
+}
+.banner.bannerRight .banner-text{
+    margin-right: 5%;
 }
 .banner-1{
     background-image: url(./../img/10th_banner_6.jpg);
@@ -264,7 +281,7 @@ header .nav2 ul li{
     font-family: bruumBoldFont;
     font-size: 45px;
     line-height: 50px;
-    margin-top: 55%;
+    margin-top: 70%;
 }
 .banner .banner-text hr{
     border-top: 2px solid #027cc2;
@@ -425,7 +442,7 @@ footer form .btn{
 /* start media query */
 @media only screen and (min-width: 1400px) {
     .banner {
-        height: 600px;
+        height: 820px;
     }
     .datamatix-section p, .datamatix-section a {
         font-size: 25px;
@@ -487,19 +504,26 @@ footer form .btn{
     .datamatix-section p {
         font-size: 16px;
     }
+    .banner.bannerRight .banner-text{
+        margin-right: 5%;
+    }
+    .banner .banner-text{
+        margin-top: -10%;
+    }
+    .banner {
+        height: 560px;
+    }
     .banner .banner-text h3 {
-        font-size: 20px;
+        font-size: 26px;
+        line-height: 33px;
         margin-top: 100%;
     }
     .banner .banner-text p {
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 18px;
+        line-height: 25px;
     }
     .banner .banner-text h3 br{
         display: none;
-    }
-    .banner .banner-text h3 {
-        line-height: 27px;
     }
     .events h3 {
         margin: 25px 0;
@@ -618,7 +642,7 @@ footer form .btn{
         text-align: center;
         line-height: 30px;
     }
-    .banner{
+    .banner, .bannerTop{
         width: 100%;
         height: 400px;
     }
@@ -636,7 +660,7 @@ footer form .btn{
         z-index: 99;
     }
     .banner .banner-text h3{
-        margin-top: 30%;
+        margin-top: 44%;
         color: #027cc2;
     }
     .banner .banner-text hr {
@@ -710,7 +734,7 @@ footer form .btn{
         margin-top: 5px;
     }
     .banner .banner-text h3 {
-        margin-top: 35%;
+        margin-top: 45%;
     }
     .banner .banner-text hr{
         width: 100%;
@@ -773,7 +797,7 @@ footer form .btn{
         width: 75%;
     }
     .banner .banner-text h3 {
-        margin-top: 40%;
+        margin-top: 50%;
     }
 }
 @media only screen and (max-width: 460px){
@@ -809,7 +833,7 @@ footer form .btn{
         margin: auto;
     }
     .banner .banner-text h3 {
-        margin-top: 35%;
+        margin-top: 60%;
     }
     .banner .banner-text p{
         margin-top: 10px;

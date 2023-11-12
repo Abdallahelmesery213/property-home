@@ -32,7 +32,7 @@ header{
 header .left-part img{
     width: 100%;
     min-height: 100px;
-    margin-top: 15px;
+    margin-top: 25px;
     cursor: pointer;
 }
 header .right-part{

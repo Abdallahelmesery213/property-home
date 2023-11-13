@@ -25,14 +25,18 @@ ul{
 /* start header */
 header{
     position: relative;
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
     /* padding-bottom: 35px; */
     /* border-bottom: 5px solid #027cc2; */
 }
 header .left-part img{
-    width: 100%;
-    min-height: 100px;
-    margin-top: 25px;
+    width: 90%;
+    min-height: 85px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     cursor: pointer;
 }
 header .right-part{
@@ -45,15 +49,19 @@ header .right-part .top-nav{
     background-color: #027cc2;
     padding: 0 20px;
     color: #fff;
-    min-height: 70px;
+    min-height: 60px;
     display: flex;
     align-items: center;
 }
 header .right-part .top-nav ul li a{
     text-decoration: none;
     color: #fff;
+    font-size: 14px;
+    font-family: bruumBoldFont;
 }
 header .right-part .top-nav ul li{
+    font-size: 14px;
+    font-family: bruumBoldFont;
     margin-right: 21px;
     position: relative;
     cursor: pointer;
@@ -74,7 +82,7 @@ header .nav1{
     padding: 0 20px;
     position: absolute;
     width: 100%;
-    min-height: 70px;
+    min-height: 60px;
     display: flex;
     align-items: center;
 }
@@ -429,7 +437,7 @@ footer .copy-right p{
     color: #fff
 }
 footer form input, footer form .btn{
-    max-height: 35px;
+    max-height: 33px;
     background-color: #027cc2;
 }
 footer form .btn{
@@ -552,7 +560,9 @@ footer form .btn{
     }
 }
 @media only screen and (max-width: 940px) {
-
+    header .left-part img {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 798px) {

@@ -178,7 +178,7 @@ header .nav2 ul li{
     margin: 5px;
 }
 .counter i{
-    font-size: 22px;
+    font-size: 35px;
     color: #888686;
 }
 .counter p{
@@ -406,6 +406,9 @@ footer h5{
     font-size: 17px;
     font-family: bruumBoldFont;
 }
+footer .links{
+    margin-bottom: 5px;
+}
 footer .links span{
     color: #3d3b3b;
     font-size: 14px;
@@ -418,6 +421,7 @@ footer .links span:hover{
 footer .subscribe-label{
     color: #027cc2;
     font-size: 17px;
+    font-family: bruumBoldFont;
 }
 footer p.footr{
     font-size: 15px;
@@ -440,7 +444,18 @@ footer form input, footer form .btn{
     background-color: #027cc2;
 }
 footer form .btn{
-    font-size: 15px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+}
+footer .icon-download img{
+    margin-left: 25px;
+    min-height: 40px;
+    margin-top: -3px;
+}
+footer .social img{
+    margin-right: 10px;
+    cursor: pointer;
 }
 /* end footer */
 

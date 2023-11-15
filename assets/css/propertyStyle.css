@@ -746,8 +746,8 @@ footer .social img{
         justify-content: center;
     }
     footer .social{
-        width: 50%;
-        margin: auto;
+        width: 75%;
+        margin: 0 auto;
     }
     
 }

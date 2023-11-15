@@ -661,6 +661,7 @@ footer .social img{
     }
     .datamatix-section p {
         font-size: 14px;
+        width: 100%;
     }
     .gallery button.btn {
         width: 50%;

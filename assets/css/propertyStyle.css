@@ -31,7 +31,7 @@ header{
 }
 header .left-part img{
     width: 90%;
-    min-height: 85px;
+    min-height: 65px;
     margin-top: 20px;
     margin-bottom: 25px;
     margin-left: auto;
@@ -208,6 +208,7 @@ header .nav2 ul li{
 .datamatix-section p{
     font-size: 21px;
     line-height: 32px;
+    width: 79%;
 }
 .datamatix-section a{
     color: #027cc2 !important;
@@ -322,6 +323,10 @@ header .nav2 ul li{
 .categories img{
     margin-bottom: 25px;
 }
+.gallery{
+    width: 75%;
+    margin: 0 auto;
+}
 .gallery button.btn{
     display: block;
     margin: 2% 42%;
@@ -398,6 +403,7 @@ footer .logo {
     text-align: center;
 }
 footer .logo img{
+    width: 90%;
     margin-top: -30%;
 }
 footer .logo img.logo2{
@@ -455,8 +461,10 @@ footer form .btn{
 }
 footer .icon-download img{
     margin-left: 25px;
-    min-height: 40px;
-    margin-top: -3px;
+    min-height: 44px;
+    margin-top: -5px;
+    width: 40%;
+    cursor: pointer;
 }
 footer .social img{
     margin-right: 10px;
@@ -732,8 +740,9 @@ footer .social img{
         margin-bottom: 20px;
     }
     footer .icon-download{
-        width: 50%;
-        margin: 5px auto;
+        width: 75%;
+        margin: 0 auto;
+        justify-content: center;
     }
     footer .social{
         width: 50%;

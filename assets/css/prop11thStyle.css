@@ -201,7 +201,7 @@ header .nav2 ul li{
 .datamatix-section p{
     font-size: 21px;
     line-height: 32px;
-    width: 79%;
+    /* width: 79%; */
 }
 .datamatix-section a{
     color: #027cc2 !important;

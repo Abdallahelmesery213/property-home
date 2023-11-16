@@ -491,6 +491,12 @@ footer .social img{
         margin-left: 0px;
     }
 }
+@media only screen and (max-width: 1312px) and (min-width: 1270px)  {
+    .banner.bannerLeft, .banner.bannerRight {
+        height: 750px;
+        background-position: top;
+    }
+}
 @media only screen and (max-width: 1281px) {
     .counter-top p{
         font-size: 14px;

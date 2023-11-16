@@ -473,6 +473,12 @@ footer .social img{
         line-height: 40px;
     }
 }
+@media only screen and (max-width: 1312px) and (min-width: 1270px)  {
+    .banner.bannerLeft, .banner.bannerRight {
+        height: 750px;
+        background-position: top;
+    }
+}
 @media only screen and (max-width: 1344px) {
     header .nav1 ul li {
         font-size: 13px;

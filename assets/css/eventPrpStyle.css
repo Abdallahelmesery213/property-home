@@ -346,10 +346,15 @@ header .nav2 ul li{
     margin: 20px auto;
     font-size: 24px;
 }
+.events .event-card h5 a{
+    text-decoration: none;
+    color: #000 !important;
+    font-family: bruumBoldFont;
+}
 .events .card-body p, .card-footer p{
     color: #8b8b8b;
 }
-.events a{
+.events .btn a{
     text-decoration: none;
     color: #fff;
     font-family: bruumLightFont;
@@ -515,12 +520,6 @@ footer .social img{
     /* header .nav1{
         padding-bottom: 10px;
     } */
-}
-@media only screen and (max-width: 1199px) {
-    .datamatix-section p {
-        font-size: 18px;
-        width: 100%;
-    }
 }
 @media only screen and (max-width: 1109px) {
     .counter-top .btns {
